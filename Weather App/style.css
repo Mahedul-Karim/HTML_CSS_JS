@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+#main--area{
+    background-image:linear-gradient(#c31432,#240b36);
+    /* height: 450px; */
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition:height 0.5s ease;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4f1a75;
+    color: white;
+    width: 300px;
+    font-family: inherit;
+}
+.search:focus{
+    outline: none;
+}
+.search::placeholder{
+    color: white;;
+}
+.search--btn{
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #4f1a75;
+    color: white;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ p{
+    margin: 0px;
+}
+.temp--img{
+    width: 150px;
+}
+.temp--text{
+    font-size: 32px;
+    color: white;
+}
+.city{
+    color: white;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col p{
+    display: block;
+}
+.col img{
+    width: 40px;
+}
+.col p{
+    margin-left: 10px;
+    color: white;
+}
+.humidity--percent{
+    font-size: 25px;
+}
+.windspeed--speed{
+    font-size: 25px;
+}

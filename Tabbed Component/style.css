@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(210, 36%, 96%);
+    font-family: 'Poppins';
+}
+.tabbed--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+.btn--container{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.tab--btn{
+    font-size: 1rem;
+    background-color: hsl(212, 33%, 89%);
+    border: none;
+    color: black;
+    padding: 12px;
+    cursor: pointer;
+    width: 400px;
+}
+.tab--btn:hover{
+    background-color: white;
+    transition: 0.5s ease;
+}
+.tab--btn.active{
+    background-color: white;
+}
+.content{
+    display: none;
+    font-family: 'Poppins';
+}
+.content.active{
+    display: block;
+    background-color: white;
+    padding: 15px;
+    font-family: inherit;
+}

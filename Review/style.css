@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 36%, 96%);
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.review--title{
+    text-align: center;
+}
+.line{
+    height: 0.25rem;
+    width: 5rem;
+    background-color: hsl(205, 78%, 60%);
+    margin: 0 auto;
+}
+main{
+    margin-top: 50px;
+    text-align: center;
+    width: 600px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.container{
+    margin-top: 20px;
+}
+
+.person{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid hsl(205, 78%, 60%);
+}
+p{
+    margin: 0px;
+    font-family: inherit;
+}
+.name{
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: inherit;
+}
+.profession{
+    color: hsl(205, 78%, 60%);
+    font-size: 16px;
+}
+.buttons-container{
+    margin-top: 20px;
+}
+.prev-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: hsl(205, 78%, 60%);
+    cursor: pointer;
+}
+.next-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: hsl(205, 78%, 60%);
+    cursor: pointer;
+}
+.random-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: hsl(205, 78%, 60%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

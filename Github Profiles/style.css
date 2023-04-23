@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Poppins", sans-serif;
+    background-color: #2a2a72;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.search--container{
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#search{
+    width: 500px;
+    padding: .8rem;
+    background-color: #4c2885;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+}
+#search:focus{
+    outline: none;
+}
+.results--container{
+    background-image: linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 500%;
+    border: 10px solid #2a2a72;
+}
+.user--info{
+    margin-left: 1rem;
+}
+.user-name{
+    color: white;
+    font-size: 2rem;
+}
+.user--des{
+    color: white;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 0.5rem;
+}
+.list li strong{
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+.repo{
+    
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+#repos{
+    width: 500px;
+}
+p{
+    color: white;
+    font-family: inherit;
+    font-size: 1.2rem;
+    opacity: 0.4;
+}
